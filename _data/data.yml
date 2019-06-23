@@ -47,9 +47,11 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I'm a software engineer based in Philadelphia, Pennsylvania. I'm inquisitive and enthusiatic 
-      to learn new things about tech. I play in integral role in the way systems behave for safe 
-      and proper usage of technical experts.
+      I'm a versatile software engineer based in Philadelphia, Pennsylvania. I have 10+ years of experiece in 
+      building and testing desktop applications, as well as architecting and deploying backend production systems. 
+      I'm inquisitive and enthusiatic to learn new things, especially in the tech world.
+      I have an interest in developing mobile and web based applications, the DevOps pipeline, and much more.
+      Check out my profile to learn a little more about my professional experience.
 
 education:
     - degree: Master of Science in Engineering Management
