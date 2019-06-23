@@ -1,0 +1,172 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Candyce Douglas
+    tagline: Full Stack Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: candyce.douglas@gmail.com
+    phone: +1 (718) 744-7784
+    website: c-douglas.github.io #do not add http://
+    linkedin: candycepdouglas
+    github: c-douglas
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: 
+    codewars:
+    goodreads:
+
+    languages:
+      - idiom: English
+        level: Native
+
+      - idiom: Spanish
+        level: Novice
+
+    interests:
+      - item: Traveling
+        link:
+
+      - item: Cycling
+        link:
+
+      - item: Reading
+        link:
+
+      - item: Cooking
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      I'm a software engineer based in Philadelphia, Pennsylvania. I'm inquisitive and enthusiatic 
+      to learn new things about tech. I play in integral role in the way systems behave for safe 
+      and proper usage of technical experts.
+
+education:
+    - degree: Master of Science in Engineering Management
+      university: Widener University
+      time: Dec 2013
+      details: |
+
+    - degree: Graduate Certificate in Technology Management
+      university: Widener University
+      time: Dec 2012
+      details: |
+
+    - degree: Bachelor of Science in Computer Engineering
+      university: State University of New York at Binghamton University
+      time: May 2008
+      details: |
+
+experiences:
+    - role: Senior Software Engineer
+      time: Nov 2013 - Present
+      company: The Boeing Company, Ridley Park, Pennsylvania
+      details: |
+        Manage & support post processing ETL data pipleine for Chinook flight test operations. 
+
+        - Led team of 4 developers and IT professionals in deploying on premises backend production environment to
+          host 100+ TB data warehouse and analysis application using Java, Python, JavaScript, and Docker.
+        - Spearheaded effort to ensure compliance with US government DFARS cybersecurity requirements 
+          to reduce risk of security breach and data loss.
+        - Trained colleagues on usage of Java native interface with C program to execute statistical 
+          calculations of flight test data, delivering JNI enabled shared object to add to data processing pipeline within 72 hours.
+        - Established repeatable process to read flat files and insert data into SQL 
+          database using Python with cx_Oracle library, searching through 37 TB of flat files.
+        - Managed data cleaning effort for flight instrument descriptions and mnemonics due to 
+          flight test operation human error using SQL, cleansing up to 60% of all flights taken place (over 4,000 flights).
+        - Established staging, beta, and alpha software release process and launching mechanism 
+          utilizing Bash shell scripting, Linux user groups, and access control lists.
+        - Developed repeatable process to read and launch applications based on configuration files while processing 
+          engineering unit converted data using Perl, reducing operator input, and improving execution time by 60%.
+        - Assessed and addressed software vulnerabilities and flaws using static scanning and Linux access control 
+          lists to remove 100% of hard-coded passwords, SQL injection vulnerabilities and directory traversal vulnerabilities.
+        - Identified system JVM configuration issue and improved launch time of 3 Java desktop 
+          applications between 70% to 83% by using alternative Linux random number configuration.
+        - Established and trained team of 8+ in basic configuration management practices and issue tracking in Gitlab.
+        - Evaluated and advised management on tools and best practices for software development 
+          thereby reducing risk of software loss and improving software recovery process by 72 hours.
+
+    - role: Software Engineer
+      time: Nov 2008 - Oct 2013
+      company: The Boeing Company, Ridley Park, Pennsylvania
+      details: |
+        Software and systems support for Chinook simulations, systems integrations and lab testing. 
+
+          - Setup and configured systems integrated test environment, including operating system, 
+            real-time software environment, and out the window visuals used by Chinook Mk6 aircrafts. 
+          - Developed, tested, and integrated real-time linear and quadratic interpolation algorithms 
+            to dynamically acquire and process data received from iridium GPS signals using C.
+          - Designed message structure algorithm to decode 3 types of iridium GPS signals for research 
+            and development of the High Integrity Global Positioning System (iGPS) using C++.
+          - Defined and automated unit and functional test procedures for Chinook Mk6 flight controller system.
+          - Collaborated with 2 avionics engineers and executed collection of situational Arinc 429 and 
+            MIL-STD 1553 bus data from V22 Osprey Master Ice Protection Controller using Dewetron data acquisition system.
+
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
+
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Java
+        level: 80%
+
+      - name: Python  # & Django
+        level: 80%
+
+      - name: Javascript # & jQuery
+        level: 70%
+      
+      - name: React
+        level: 70%
+
+      # - name: Angular
+      #   level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: SQL
+        level: 75%
+
+      - name: Elastic Search & Kibana
+        level: 5%
+
+footer: >
+    Forked with <i class="fas fa-heart"></i> from <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

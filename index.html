@@ -1,10 +1,21 @@
-<!doctype html>
+---
+layout: default
+title: Candyce Douglas
+---
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Candyce Douglas</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="utf-8">
+    <title{{page.title}}</title>
   </head>
-  <body>
-    <p>This page is in development</p>
+  <body>  
+      {% include career-profile.html %}
+      {% include skills.html %}
+      {% unless site.data.data.sidebar.education %}
+        {% include education.html %}
+      {% endunless %}
+      {% include experiences.html %}
+      {% include projects.html %}
+      {% include publications.html %}
   </body>
 </html>
