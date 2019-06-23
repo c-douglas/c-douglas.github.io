@@ -20,10 +20,10 @@
 #  A Bootstrap 4 start up project for Jekyll and Github Pages
 
 #url: "https://c-douglas.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/c-douglas.github.io" # the subpath of your site, e.g. /blog
+#baseurl: "/c-douglas.github.io" # the subpath of your site, e.g. /blog
 #twitter_username: jekyllrb
 #github_username:  c-douglas
-repository: "c-douglas/c-douglas.github.io"
+#repository: "c-douglas/c-douglas.github.io"
 
 # Choose one of the options: Style will be applied only after restarting the build or serve.
 theme_skin: berry     # blue turquoise green berry orange ceramic
